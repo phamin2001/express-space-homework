@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        
+    </head>
+    <body>
+    <ul class="missions">
+        <% missionsArray.forEach(function(eachMission, index){ %>
+            <li><a href="http://localhost:3000/missions/<%=index%>"><%=eachMission.name%></a></li>
+        <% }) %>
+    </ul>
+    </body>
+</html>
